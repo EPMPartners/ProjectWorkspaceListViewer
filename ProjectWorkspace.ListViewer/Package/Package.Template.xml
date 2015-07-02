@@ -1,0 +1,13 @@
+﻿<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0c06b8e8-938f-49ba-a78c-b96f410f031a" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ProjectWorkspace.ListViewer.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="ProjectWorkspace.ListViewer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1ec0f5fcf23c273d" Namespace="ProjectWorkspace.ListViewer.VisualWebPart" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ProjectWorkspace.ListViewer_Feature1\Feature.xml" />
+    <FeatureManifest Location="ProjectWorkspace.ListViewer_Feature2\Feature.xml" />
+  </FeatureManifests>
+</Solution>

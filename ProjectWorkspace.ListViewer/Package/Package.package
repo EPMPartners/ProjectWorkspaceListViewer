@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0c06b8e8-938f-49ba-a78c-b96f410f031a" solutionId="0c06b8e8-938f-49ba-a78c-b96f410f031a" resetWebServer="false" sharePointProductVersion="15.0" name="ProjectWorkspace.ListViewer" isDesignerEnabled="false" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="6d84f381-c42c-41df-92ed-78ef11e0e429" />
+    <featureReference itemId="d70029a0-a2c1-4e57-8c22-696c80d13e69" />
+  </features>
+</package>

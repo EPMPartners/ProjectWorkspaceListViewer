@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="ProjectWorkspace.ListViewer.VisualWebPart.WorkspaceListViewWebPart, $SharePoint.Project.AssemblyFullName$" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">EPM Project Workspace ListViewer</property>
+        <property name="Description" type="string">Web part to display project site content within a PDP.</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

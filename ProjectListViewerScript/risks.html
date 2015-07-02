@@ -1,0 +1,49 @@
+﻿<div>
+   
+    <div id="RiskResult"></div>   
+    <script type="text/javascript" src="/PWA/Style%20Library/js/projectsitelistviewer.js"></script>
+    <script type="text/javascript">
+        function getProjectSiteViewerComponent(name)
+        {
+            return location.protocol + "//" + location.host + L_Menu_BaseUrl + "/Style%20Library/js/" + name;
+
+        }
+        if (typeof jQuery == 'undefined') {
+            var jqueryPath = getProjectSiteViewerComponent('jquery-1.6.2.min.js');
+            document.write('<script type="text/javascript" src="' + jqueryPath + '"><\/script>');
+        }
+        //if (typeof epm == 'undefined') {
+        //    var epmPath = getProjectSiteViewerComponent('projectsitelistviewer.js');
+        //    document.write('<script type="text/javascript" src="' + epmPath + '"><\/script>');
+        //}
+        var lpck = 0;
+        function TryGetProjectSiteResult()
+        {
+            if (typeof epm == 'undefined') {
+
+                setTimeout(function()
+                {
+                    if (lpck < 62) {
+                        lpck++;
+                        TryGetProjectSiteResult();
+                    }
+                }, 150)
+            }
+            else {
+                GetProjectSiteResult();
+            }
+
+        }
+        //make global scope to store values, i.e. the original iframe url.
+        var projViewer;
+        function GetProjectSiteResult()
+        {
+            var loadingImage = '/PWA/Style%20Library/Images/ajax-loader.gif';
+           // projViewer = new epm.ProjectSiteListViewer('ProjectStatusResult', loadingImage);
+           // projViewer.get_TargetList('Project Status Comments', false);
+            projViewer = new epm.ProjectSiteListViewer('RiskResult', loadingImage);
+            projViewer.get_TargetList(epm.ProjectSiteListViewer.risks, false);
+        }
+        ExecuteOrDelayUntilScriptLoaded(TryGetProjectSiteResult, "sp.js");
+    </script>
+</div>

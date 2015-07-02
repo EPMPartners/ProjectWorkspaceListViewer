@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectWorkspace.ListViewer", "ProjectWorkspace.ListViewer\ProjectWorkspace.ListViewer.csproj", "{C43E63C0-34EC-4E1A-B4D3-B251EB75A4E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectListViewerScript", "ProjectListViewerScript\ProjectListViewerScript.csproj", "{5B7FF30C-3FC2-4CAB-88BB-2C58F77267E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C43E63C0-34EC-4E1A-B4D3-B251EB75A4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43E63C0-34EC-4E1A-B4D3-B251EB75A4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43E63C0-34EC-4E1A-B4D3-B251EB75A4E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C43E63C0-34EC-4E1A-B4D3-B251EB75A4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43E63C0-34EC-4E1A-B4D3-B251EB75A4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43E63C0-34EC-4E1A-B4D3-B251EB75A4E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5B7FF30C-3FC2-4CAB-88BB-2C58F77267E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7FF30C-3FC2-4CAB-88BB-2C58F77267E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7FF30C-3FC2-4CAB-88BB-2C58F77267E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7FF30C-3FC2-4CAB-88BB-2C58F77267E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="WorkspaceListViewWebPart" List="113" Url="_catalogs/wp">
+    <File Path="WorkspaceListViewWebPart\WorkspaceListViewWebPart.webpart" Url="ProjectWorkspace.ListViewer_WorkspaceListViewWebPart.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Project Web App" />
+    </File>
+  </Module>
+</Elements>

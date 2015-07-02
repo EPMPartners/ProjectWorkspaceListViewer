@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+<Module Name="Scripts" Url ="SiteAssets/projectsitelistviewer" >
+    <File Path="Scripts\ajax-loader.gif" Url="Scripts/ajax-loader.gif" />
+    <File Path="Scripts\jquery-1.10.2.min.js" Url="Scripts/jquery-1.10.2.min.js" />
+    <File Path="Scripts\projectsitelistviewer.js" Url="Scripts/projectsitelistviewer.js" />
+  </Module>
+</Elements>
