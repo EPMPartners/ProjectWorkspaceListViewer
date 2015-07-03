@@ -2,8 +2,7 @@
 A replacement to the Project Workspace List Viewer in Project Server 2010.
 
 As a way to display project site information within Project Server, Project Server Pages the Project Workspace List Viewer was
-a webpart part of the Project Server 2010 SDK.  This webpart is now deprecated with Project Server 2013 and unavailable with 
-Project Online.  However, many users like the integration between Project Detail Pages (PDP)'s and project sites.   
+a webpart part of the Project Server 2010 SDK.  This webpart is not available with Project Server 2013 and Project Online.  However, many users like the integration between Project Detail Pages (PDP)'s and project sites.   
 
 This version is all javascript and has been tested with Project Server 2010 (to prepare for migrations), Projet Server 2013, 
 and Project Online.
