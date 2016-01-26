@@ -12,3 +12,6 @@ sandbox solution used to deploy and provide a similar PDP designer user experien
 
 The technique used is to query project PSI to get the project site url.  Then display in a iframe and respond to iframe child events
 to make it fit nicely.
+
+
+<a href="https://github.com/EPMPartners/ProjectWorkspaceListViewer/releases" >Download Release</a>
